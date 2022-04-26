@@ -1,0 +1,131 @@
+.gaming-app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 1110px;
+}
+.gaming-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gaming-responsive-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gaming-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gaming-header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header-name {
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: 700;
+}
+.gaming-details-item-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 64px;
+  margin-top: 48px;
+}
+@media screen and(min-width:768px) {
+  .failure-container {
+    margin-left: 30px;
+    width: 70px;
+    padding-bottom: 0;
+    margin-top: 0px;
+  }
+}
+.failure-image {
+  width: 250px;
+  height: 180px;
+}
+@media screen and(min-width:768px) {
+  .failure-image {
+    width: 459px;
+    height: 315px;
+  }
+}
+.failure-heading {
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3px;
+}
+@media screen and(min-width:768px) {
+  .failure-heading {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+}
+.failure-description {
+  text-align: center;
+  font-family: 'roboto';
+  font-size: 14px;
+  width: 90%;
+  line-height: 1.3;
+  max-width: 288px;
+}
+@media screen and(min-width:768px) {
+  .failure-description {
+    margin-top: 12px;
+    font-size: 18px;
+    width: 60%;
+    max-width: 466px;
+  }
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@media screen and(min-width:768px) {
+  .loader-container {
+    width: 70%;
+  }
+}
+.dark-header {
+  background-color: #ebebeb;
+}
+.light-header {
+  background-color: #212121;
+}
+.dark-icon {
+  background-color: #231f20;
+  color: red;
+}
+.light-icon {
+  background-color: #ebebeb;
+  color: red;
+}
+.gaming-bg-dark {
+  background-color: #181818;
+}
+.gaming-bg-light {
+  background-color: #f9f9f9;
+}
+.light-color-text {
+  color: #f9f9f9;
+}
+.dark-color-text {
+  color: #181818;
+}
